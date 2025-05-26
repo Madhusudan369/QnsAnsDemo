@@ -1,0 +1,84 @@
+/* MatchingQnsAns.module.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.columnsContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.column {
+  flex: 1;
+}
+
+.sectionHeader {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.serviceItem {
+  background-color: white;
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 80px;
+}
+
+.serviceItemOver {
+  background-color: #f0f0f0;
+}
+
+.serviceName {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.description {
+  cursor: move;
+  padding: 12px;
+  margin: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #e6f7ff;
+  position: relative;
+  min-height: 60px;
+}
+
+.descriptionDragging {
+  opacity: 0.5; 
+}
+
+.descriptionIncorrect {
+  border-color: #ff4d4f;
+  background-color: #fff2f0;
+}
+
+.resetButton {
+  padding: 6px 12px;
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.removeButton {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ff4d4f;
+  font-size: 12px;
+}
