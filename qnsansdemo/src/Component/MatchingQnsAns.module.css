@@ -63,15 +63,6 @@
   background-color: #fff2f0;
 }
 
-.resetButton {
-  padding: 6px 12px;
-  background-color: #1890ff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
 .removeButton {
   position: absolute;
   right: 4px;
@@ -81,4 +72,162 @@
   cursor: pointer;
   color: #ff4d4f;
   font-size: 12px;
+}
+.submitButton {
+  padding: 6px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+.correctMatch {
+  border: 2px solid #4CAF50;
+  background-color: #e8f5e9;
+}
+
+.incorrectMatch {
+  border: 2px solid #f44336;
+  background-color: #ffebee;
+}
+
+.descriptionCorrect {
+  background-color: #e8f5e9;
+}
+
+.descriptionIncorrect {
+  background-color: #ffebee;
+}
+
+.resultIndicator {
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.descriptionCorrect .resultIndicator {
+  color: #4CAF50;
+}
+
+.descriptionIncorrect .resultIndicator {
+  color: #f44336;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.columnsContainer {
+  display: flex;
+  gap: 30px;
+  flex: 1;
+}
+
+.column {
+  flex: 1;
+}
+
+.footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+.submitButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.serviceItem {
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 60px;
+  background-color: white;
+}
+
+.serviceItemOver {
+  background-color: #f0f0f0;
+}
+
+.correctMatch {
+  border: 2px solid #4CAF50;
+  background-color: #e8f5e9;
+}
+
+.incorrectMatch {
+  border: 2px solid #f44336;
+  background-color: #ffebee;
+}
+
+.description {
+  padding: 8px;
+  margin: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fafafa;
+  cursor: move;
+}
+
+.descriptionDragging {
+  opacity: 0.5;
+}
+
+.descriptionCorrect {
+  background-color: #e8f5e9;
+}
+
+.descriptionIncorrect {
+  background-color: #ffebee;
+}
+
+.resultIndicator {
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.descriptionCorrect .resultIndicator {
+  color: #4CAF50;
+}
+
+.descriptionIncorrect .resultIndicator {
+  color: #f44336;
+}
+
+.removeButton {
+  float: right;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #999;
+}
+
+.removeButton:hover {
+  color: #666;
 }
